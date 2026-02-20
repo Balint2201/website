@@ -104,9 +104,6 @@ function Page() {
               value={backgroundsEnabled}
               onChange={setBackgroundsEnabled}
             />
-            <p>
-              ©{new Date(Date.now()).getFullYear() ?? "2025"} YourName. All rights reserved.
-            </p>
           </div>
         </div>
       </div>
