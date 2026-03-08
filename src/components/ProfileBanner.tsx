@@ -1,14 +1,13 @@
-import { useProfile } from "@/zustand/useProfile";
+import banner from "@/assets/banner.jpg";
 
 const ProfileBanner = () => {
-    const profileBanner = useProfile(s => s.content.banner);
-
     return (
         <img
-            src={profileBanner}
+            src={banner}
             width={700}
             height={500}
-            className={`overflow-hidden${!profileBanner ? " opacity-0" : ""}`}
+            className="overflow-hidden"
+            alt=""
         />
     )
 }

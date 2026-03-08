@@ -36,12 +36,12 @@ const ProfileTop = () => {
                 </div>
                 <div className="flex relative mt-3 z-[2]">
                     <h1 className="text-3xl font-bold relative">
-                        YourName
+                        Balint2201
                     </h1>
                 </div>
                 <div className="relative z-[3] mt-3">
                     <div className="text-sm sm:text-base md:text-lg text-center">
-                        Creator of <SpicyLyricsHoverCard /><span className="italic">(something)</span>.
+                        Staff at <SpicyLyricsHoverCard /><span className="italic"></span>
                     </div>
                 </div>
             </div>

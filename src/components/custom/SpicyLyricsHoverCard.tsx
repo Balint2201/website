@@ -24,7 +24,7 @@ const SpicyLyricsHoverCard = () => {
     <HoverCard open={false}>
       <HoverCardTrigger asChild className="cursor-target">
         <a
-          href="https://example.com"
+          href="https://spicylyrics.org/"
           target="_blank"
           onClick={appLinkOpen}
         >
@@ -32,7 +32,7 @@ const SpicyLyricsHoverCard = () => {
             variant={"link"}
             className="text-sm sm:text-base md:text-lg p-0 pl-0.5 pr-0.5 cursor-pointer font-bold"
           >
-            YourApp
+            Spicy Lyrics
           </Button>
         </a>
       </HoverCardTrigger>
