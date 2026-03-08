@@ -17,7 +17,7 @@ type LinkListItem = {
 const LinkList: LinkListItem[] = [
     {
         name: "My Yoursitee",
-        href: "https://example.com/balint2201",
+        href: "https://yoursit.ee/balint2201",
         icon: <ArrowUpRight />,
         variant: "default"
     },
