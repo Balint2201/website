@@ -1,6 +1,6 @@
 import ProfileTop from "./components/ProfileTop";
 import { Suspense } from "react";
-import { ArrowUpLeft, ArrowUpRight, LoaderCircle } from "lucide-react";
+import { LoaderCircle } from "lucide-react";
 import LinkListComponent from "./components/custom/LinkListComponent";
 import Particles from "./components/Particles";
 import Cursor from "./components/cursor";
@@ -58,7 +58,33 @@ function Page() {
                 }
               >
                 <LinkListComponent />
-                <div className="w-full flex items-center justify-center mt-2">              
+                <div className="w-full flex items-center justify-center mt-2">
+                  <footer className="mt-6 text-center text-sm text-neutral-300">
+                    <p>
+                      This webiste is open source! Check it out{" "}
+                      <a
+                        href="https://github.com/Balint2201/website"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="cursor-target font-bold hover:text-white transition-colors"
+                      >
+                        here
+                      </a>
+                      !
+                    </p>
+                    <p className="mt-1 text-xs italic text-neutral-400">
+                      Based on{" "}
+                      <a
+                        href="https://spikerko.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="cursor-target font-bold hover:text-white transition-colors"
+                      >
+                        @spikerko
+                      </a>
+                      's code.
+                    </p>
+                  </footer>
                 </div>
               </Suspense>
             </div>

@@ -44,7 +44,7 @@ const ProfileTop = () => {
                 </div>
                 <div className="relative z-[3] mt-3">
                     <div className="text-sm sm:text-base md:text-lg text-center">
-                        Staff at <SpicyLyricsHoverCard /><span className="italic"></span>
+                        Staff at <SpicyLyricsHoverCard /><span className="italic">.</span>
                     </div>
                 </div>
             </div>

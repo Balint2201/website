@@ -1,4 +1,10 @@
-@import url('https://fonts.yourname.org/app-font/source.css');
+@font-face {
+  font-family: 'AppFont';
+  src: url('https://fonts.spikerko.org/spicy-lyrics/LyricsBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
 
 @plugin 'tailwindcss-animate';
 
