@@ -61,7 +61,7 @@ function Page() {
                 <div className="w-full flex items-center justify-center mt-2">
                   <footer className="mt-6 text-center text-sm text-neutral-300">
                     <p>
-                      This webiste is open source! Check it out{" "}
+                      This website is open source! Check it out{" "}
                       <a
                         href="https://github.com/Balint2201/website"
                         target="_blank"
