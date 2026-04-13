@@ -1,9 +1,7 @@
-import { ArrowUpRight, Github, Instagram, Mail, Music, Podcast, Youtube } from "lucide-react"
+import { ArrowUpRight } from "lucide-react"
 import SpicyLyricsIcon from "@/components/custom/Icons/SpicyLyrics"
-import TikTokIcon from "@/components/custom/Icons/TikTokIcon";
-import XIcon from "@/components/custom/Icons/XIcon";
-import SpotifyIcon from "@/components/custom/Icons/SpotifyIcon";
 import DiscordIcon from "@/components/custom/Icons/DiscordIcon";
+import PcIcon from "@/components/custom/Icons/PcIcon";
 
 type LinkListItem = {
     name: string;
@@ -30,6 +28,12 @@ const LinkList: LinkListItem[] = [
         name: "Spicy Lyrics TTML Profile",
         href: "https://profile.spicylyrics.org/balint2201",
         icon: <SpicyLyricsIcon className="fill-white" />,
+    },
+    {
+        name: "Setup",
+        href: "/setup",
+        icon: <PcIcon className="fill-white" />,
+        target: "_self"
     },
 ]
 
