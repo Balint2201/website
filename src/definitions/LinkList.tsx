@@ -26,7 +26,7 @@ const LinkList: LinkListItem[] = [
     },
     {
         name: "Spicy Lyrics TTML Profile",
-        href: "https://profile.spicylyrics.org/balint2201",
+        href: "https://spicylyrics.org/balint2201",
         icon: <SpicyLyricsIcon className="fill-white" />,
     },
     {
